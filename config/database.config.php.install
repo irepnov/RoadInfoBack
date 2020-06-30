@@ -1,0 +1,25 @@
+<?php
+return array(
+        # Primary/Default database connection
+        'mysql_default' => array(
+            'driver' => 'mysql',
+            'host' => '192.168.0.9',
+            'database' => 'amstrad_routes',
+            'username' => 'user',
+            'password' => 'test-265',
+            'prefix' => '',
+            'charset' => 'utf8',
+            'collation' => 'utf8_general_ci'
+        ),
+        # companies
+        'mysql_companies' => array(
+            'driver' => 'mysql',
+            'host' => 'localhost',
+            'database' => 'amstrad_companies',
+            'username' => 'root',
+            'password' => 'root',
+            'prefix' => '',
+            'charset' => 'utf8',
+            'collation' => 'utf8_general_ci'
+        )
+);

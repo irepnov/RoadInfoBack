@@ -1,0 +1,9 @@
+/build
+ext/*
+!ext/packages/
+ext/packages/*
+/vendor/
+/OTHER_TEMP_FILES
+!ext/packages/master-theme
+.idea
+*.log
